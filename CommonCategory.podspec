@@ -13,11 +13,10 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/Liuyujiaodev/CommonCategory.git"
   s.license      = "MIT"
   s.author             = "liuyujiao"
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/Liuyujiaodev/CommonCategory.git", :tag => "#{s.version}" }
   
-  s.public_header_files = 'CommonCategory/CommonCategory.h'
-  s.source_files = 'CommonCategory/CommonCategory.h'
+  s.source_files = "CommonCategory","CommonCategory/**/*.{h,m}"
 
 # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

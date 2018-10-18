@@ -8,7 +8,7 @@
 
 #ifndef CommonCategory_h
 #define CommonCategory_h
-
+#import "UIImage+Base.h"
 #import "NSDictionary+Base.h"
 #import "UIButton+ClickRange.h"
 #import "UIButton+Base.h"

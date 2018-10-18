@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CommonCategory.h"
 @interface ViewController ()
 
 @end

@@ -77,4 +77,8 @@
     self.frame = frame;
 }
 
+- (void)setRight:(CGFloat)right {
+    CGRect frame = CGRectMake(self.left + self.width, self.top, self.width, self.height);
+    self.frame = frame;
+}
 @end

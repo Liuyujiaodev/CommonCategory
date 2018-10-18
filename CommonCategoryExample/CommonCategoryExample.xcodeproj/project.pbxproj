@@ -13,6 +13,13 @@
 		09AEA9AB2178824600F315B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09AEA9AA2178824600F315B9 /* Assets.xcassets */; };
 		09AEA9AE2178824600F315B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09AEA9AC2178824600F315B9 /* LaunchScreen.storyboard */; };
 		09AEA9B12178824600F315B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9B02178824600F315B9 /* main.m */; };
+		09AEA9C721788A6F00F315B9 /* NSString+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9B821788A6F00F315B9 /* NSString+Base.m */; };
+		09AEA9C821788A6F00F315B9 /* UIView+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9BC21788A6F00F315B9 /* UIView+Base.m */; };
+		09AEA9C921788A6F00F315B9 /* UIButton+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9C121788A6F00F315B9 /* UIButton+Base.m */; };
+		09AEA9CA21788A6F00F315B9 /* UIButton+ClickRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9C221788A6F00F315B9 /* UIButton+ClickRange.m */; };
+		09AEA9CB21788A6F00F315B9 /* UIColor+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9C321788A6F00F315B9 /* UIColor+category.m */; };
+		09AEA9CC21788A6F00F315B9 /* UIImage+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9C421788A6F00F315B9 /* UIImage+Base.m */; };
+		09AEA9CD21788A6F00F315B9 /* NSDictionary+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AEA9C521788A6F00F315B9 /* NSDictionary+Base.m */; };
 		43834D579F3ACDA005A71C6D /* libPods-CommonCategoryExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AEE6EE24C68E3AF42A6A1F /* libPods-CommonCategoryExample.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +34,21 @@
 		09AEA9AD2178824600F315B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09AEA9AF2178824600F315B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09AEA9B02178824600F315B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09AEA9B821788A6F00F315B9 /* NSString+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base.m"; sourceTree = "<group>"; };
+		09AEA9B921788A6F00F315B9 /* UIButton+ClickRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ClickRange.h"; sourceTree = "<group>"; };
+		09AEA9BA21788A6F00F315B9 /* UIButton+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Base.h"; sourceTree = "<group>"; };
+		09AEA9BB21788A6F00F315B9 /* UIColor+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+category.h"; sourceTree = "<group>"; };
+		09AEA9BC21788A6F00F315B9 /* UIView+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Base.m"; sourceTree = "<group>"; };
+		09AEA9BD21788A6F00F315B9 /* NSDictionary+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Base.h"; sourceTree = "<group>"; };
+		09AEA9BE21788A6F00F315B9 /* UIImage+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Base.h"; sourceTree = "<group>"; };
+		09AEA9BF21788A6F00F315B9 /* CommonCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCategory.h; sourceTree = "<group>"; };
+		09AEA9C021788A6F00F315B9 /* NSString+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base.h"; sourceTree = "<group>"; };
+		09AEA9C121788A6F00F315B9 /* UIButton+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Base.m"; sourceTree = "<group>"; };
+		09AEA9C221788A6F00F315B9 /* UIButton+ClickRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ClickRange.m"; sourceTree = "<group>"; };
+		09AEA9C321788A6F00F315B9 /* UIColor+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+category.m"; sourceTree = "<group>"; };
+		09AEA9C421788A6F00F315B9 /* UIImage+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Base.m"; sourceTree = "<group>"; };
+		09AEA9C521788A6F00F315B9 /* NSDictionary+Base.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Base.m"; sourceTree = "<group>"; };
+		09AEA9C621788A6F00F315B9 /* UIView+Base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Base.h"; sourceTree = "<group>"; };
 		17AEE6EE24C68E3AF42A6A1F /* libPods-CommonCategoryExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonCategoryExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A85B1573F3EC450790C9B85 /* Pods-CommonCategoryExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCategoryExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCategoryExample/Pods-CommonCategoryExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C7408A93ECD1A17AA5917646 /* Pods-CommonCategoryExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonCategoryExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-CommonCategoryExample/Pods-CommonCategoryExample.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +69,7 @@
 		09AEA9952178824500F315B9 = {
 			isa = PBXGroup;
 			children = (
+				09AEA9B721788A6F00F315B9 /* CommonCategory */,
 				09AEA9A02178824500F315B9 /* CommonCategoryExample */,
 				09AEA99F2178824500F315B9 /* Products */,
 				B724AB76D6C929F122C3AB44 /* Pods */,
@@ -76,6 +99,29 @@
 				09AEA9B02178824600F315B9 /* main.m */,
 			);
 			path = CommonCategoryExample;
+			sourceTree = "<group>";
+		};
+		09AEA9B721788A6F00F315B9 /* CommonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				09AEA9B821788A6F00F315B9 /* NSString+Base.m */,
+				09AEA9B921788A6F00F315B9 /* UIButton+ClickRange.h */,
+				09AEA9BA21788A6F00F315B9 /* UIButton+Base.h */,
+				09AEA9BB21788A6F00F315B9 /* UIColor+category.h */,
+				09AEA9BC21788A6F00F315B9 /* UIView+Base.m */,
+				09AEA9BD21788A6F00F315B9 /* NSDictionary+Base.h */,
+				09AEA9BE21788A6F00F315B9 /* UIImage+Base.h */,
+				09AEA9BF21788A6F00F315B9 /* CommonCategory.h */,
+				09AEA9C021788A6F00F315B9 /* NSString+Base.h */,
+				09AEA9C121788A6F00F315B9 /* UIButton+Base.m */,
+				09AEA9C221788A6F00F315B9 /* UIButton+ClickRange.m */,
+				09AEA9C321788A6F00F315B9 /* UIColor+category.m */,
+				09AEA9C421788A6F00F315B9 /* UIImage+Base.m */,
+				09AEA9C521788A6F00F315B9 /* NSDictionary+Base.m */,
+				09AEA9C621788A6F00F315B9 /* UIView+Base.h */,
+			);
+			name = CommonCategory;
+			path = ../CommonCategory;
 			sourceTree = "<group>";
 		};
 		B724AB76D6C929F122C3AB44 /* Pods */ = {
@@ -231,9 +277,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AEA9C721788A6F00F315B9 /* NSString+Base.m in Sources */,
+				09AEA9CC21788A6F00F315B9 /* UIImage+Base.m in Sources */,
 				09AEA9A62178824500F315B9 /* ViewController.m in Sources */,
+				09AEA9CD21788A6F00F315B9 /* NSDictionary+Base.m in Sources */,
 				09AEA9B12178824600F315B9 /* main.m in Sources */,
+				09AEA9CB21788A6F00F315B9 /* UIColor+category.m in Sources */,
 				09AEA9A32178824500F315B9 /* AppDelegate.m in Sources */,
+				09AEA9C921788A6F00F315B9 /* UIButton+Base.m in Sources */,
+				09AEA9CA21788A6F00F315B9 /* UIButton+ClickRange.m in Sources */,
+				09AEA9C821788A6F00F315B9 /* UIView+Base.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +432,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 447C6XLHSL;
 				INFOPLIST_FILE = CommonCategoryExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 447C6XLHSL;
 				INFOPLIST_FILE = CommonCategoryExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

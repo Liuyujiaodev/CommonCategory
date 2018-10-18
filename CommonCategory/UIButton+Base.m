@@ -11,7 +11,20 @@
 @implementation UIButton (Base)
 
 - (void)setBackgroundColor:(UIColor *)backgroundColor forState:(UIControlState)state {
-    [self setBackgroundImage:[UIImage imageWithColor:backgroundColor] forState:state];
+    [self setBackgroundImage:[self getImage:backgroundColor] forState:state];
 }
 
+- (UIImage *)getImage:(UIColor *)color {
+    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
+}
 @end
