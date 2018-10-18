@@ -8,7 +8,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "CommonCategory"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "CommonCategory."
   s.homepage     = "https://github.com/Liuyujiaodev/CommonCategory.git"
   s.license      = "MIT"
