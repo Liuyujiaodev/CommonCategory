@@ -6,7 +6,6 @@
 //  Copyright © 2018年 yunli. All rights reserved.
 //
 
-#import "UIImage+Base.h"
 #import "NSDictionary+Base.h"
 #import "UIButton+ClickRange.h"
 #import "UIButton+Base.h"
