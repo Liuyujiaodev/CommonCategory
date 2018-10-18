@@ -6,9 +6,15 @@
 //  Copyright © 2018年 yunli. All rights reserved.
 //
 
+#ifndef CommonCategory_h
+#define CommonCategory_h
+
 #import "NSDictionary+Base.h"
 #import "UIButton+ClickRange.h"
 #import "UIButton+Base.h"
 #import "UIColor+category.h"
 #import "UIView+Base.h"
 #import "NSString+Base.h"
+
+#endif
+
